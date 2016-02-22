@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Tic-Tac-Toe Artificial Intelligence</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+    <div class="board">
+        <a href="javascript:onClickTile(0)" class="button"></a>
+        <a href="javascript:onClickTile(1)" class="button"></a>
+        <a href="javascript:onClickTile(2)" class="button"></a>
+        <a href="javascript:onClickTile(3)" class="button"></a>
+        <a href="javascript:onClickTile(4)" class="button"></a>
+        <a href="javascript:onClickTile(5)" class="button"></a>
+        <a href="javascript:onClickTile(6)" class="button"></a>
+        <a href="javascript:onClickTile(7)" class="button"></a>
+        <a href="javascript:onClickTile(8)" class="button"></a>
+    </div>
+    <div class="dialog winner">
+        <div>Whoa, your good!</div>
+        <a href="javascript:reset()">Click to play again</a>
+    </div>
+    <div class="dialog loser">
+        <div>Haha, Loser!!</div>
+        <a href="javascript:reset()">Click to play again</a>
+    </div>
+    <div class="dialog tie">
+        <div>No winner!!</div>
+        <a href="javascript:reset()">Click to play again</a>
+    </div>
+    <script src="player.js"></script>
+    <script src="AIplayer.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
